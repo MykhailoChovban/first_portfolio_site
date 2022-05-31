@@ -9,44 +9,53 @@
 </head>
 <body>
     <header>
+        <input id="menu_toggle" type="checkbox">
         <div class="nav">
             <div class="menu">
                 <a href="#">Me</a>
-            </div>          
-            <nav>               
-            
+            </div>
+            <nav>
              <div class="button">
-                 <ul>
-                     <li><a href="#">Who</a>
-                     </li>
-                     <li><a href="#">What</a>
-                     </li>
-                     <li><a href="#">Where</a>
-                     </li>
-                  </ul>
+                <ul>
+                    <li>
+                        <a href="#">Who</a>
+                    </li>
+                    <li>
+                        <a href="#">What</a>
+                    </li>
+                    <li>
+                        <a href="#">Where</a>
+                    </li>
+                </ul>
              </div>
-             
             </nav>
         </div>
-        <!-- Burger --><!-- Burger --><!-- Burger -->
-        <div class="menu_burger">
-            <input id="menu_toggle" type="checkbox" style="display: none;" >
-            <label for="menu_toggle" class="menu_btn">
-                 <span></span>
-            </label> 
+        <div class="mobile_menu">
+            <div class="menu">
+                <a href="#">Me</a>
+            </div>
+            <div class="burger_container">
+                <label for="menu_toggle" class="menu_btn">
+                    <span></span>
+                </label>
+            </div>
+        </div>
+        <div class="menu_bottom">
             <ul class="menu_box">
-                <li><a class="item" href="#">Who</a>
+                <li class="item">
+                    <a href="#who">Who</a>
                 </li>
-                <li><a class="item"href="#">What</a>
+                <li class="item">
+                    <a href="#what">What</a>
                 </li>
-                <li><a class="item"href="#">Where</a>
+                <li class="item">
+                    <a href="#where">Where</a>
                 </li>
             </ul>
-        </div> 
-        <!-- Burger --><!-- Burger --><!-- Burger -->
+        </div>
     </header>
     <article>
-        <div class="who">
+        <div id="who" class="who">
              <h3>Who Am I?</h3>
              <div class="bird">
                  <figure>
@@ -56,47 +65,46 @@
              </div>
             <h3>I'm an adventurer</h3>
         </div>
-        <div class="what">
+        <div id="what" class="what">
             <h3>What Am I?</h3>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi repellat omnis neque laudantium velit rem saepe doloribus perspiciatis cupiditate odit animi quos, quasi inventore qui mollitia <br> aperiam est excepturi possimus!</p>
             <div class="search">
                 <a href="https://translate.google.com/">Search</a>
                 <div class="icon">
                     <img src="img/search.png" alt="">
-                </div>    
+                </div>
             </div>
         </div>
-        <div class="where">
+        <div id="where" class="where">
              <h3>Where To Find Me?</h3>
              <div class="wrap">
                  <div class="column1">
                      <div class="text1">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit sed    quasi, libero, non nemo tenetur eveniet delectus nesciunt asperiores recusandae at repellat distinctio nostrum placeat beatae architecto? Optio, beatae.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit sed    quasi, libero, non nemo tenetur eveniet delectus nesciunt asperiores recusandae at repellat distinctio nostrum placeat beatae architecto? Optio, beatae.</p>
                      </div>
-                     <div class="img"><img src="img/birds1.jpg" alt=""></div>    
+                     <div class="img"><img src="img/birds1.jpg" alt=""></div>
                  </div>
                  <div class="column1">
                     <div class="text1">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus alias, totam facilis a in modi ipsa, porro distinctio vel minima aliquid, nulla eos possimus magnam accusamus cum nisi dignissimos exercitationem?.</p>
                     </div>
-                    <div class="img"><img src="img/birds2.jpg" alt=""></div>    
+                    <div class="img"><img src="img/birds2.jpg" alt=""></div>
                 </div>
                 <div class="column1">
                     <div class="text1">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo modi facilis ratione perspiciatis. Aspernatur rem nobis, ad quae velit ipsa quam accusamus soluta perferendis ab sint, nostrum deleniti, voluptas non..</p>
                     </div>
-                    <div class="img"><img src="img/birds3.jpg" alt=""></div>    
+                    <div class="img"><img src="img/birds3.jpg" alt=""></div>
                 </div>
-             </div>            
+             </div>
         </div>
     </article>
     <footer>
         <div class="footer">
             <p>Bootstrap Theme Made By
-                 <a href="">https://www.w3schools.com/</a>
+                <a href="">https://www.w3schools.com/</a>
             </p>
         </div>
     </footer>
-
 </body>
 </html>
