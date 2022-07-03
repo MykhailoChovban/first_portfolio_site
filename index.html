@@ -2,121 +2,198 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/stile.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
-      <input id="menu_toggle" type="checkbox">
-        <div class="nav">
-            <div class="menu">
-                <a href="#">Me</a>
-            </div>
-            <nav>
-                <div class="button">
-					<ul>
-                        <li>
-                            <a href="#who">Who</a>
-                        </li>
-                        <li>
-                            <a href="#what">What</a>
-                        </li>
-                        <li>
-                            <a href="#where">Where</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+  <header>
+    <input id="menu_toggle" type="checkbox"/>
+    <div class="nav">
+    <div class="menu">
+     <a href="#">Me</a>
+    </div>
+    <nav>
+      <div class="button">
+        <ul>
+          <li>
+            <a href="#who">Who</a>
+          </li>
+          <li>
+            <a href="#what">What</a>
+          </li>
+          <li>
+            <a href="#where">Where</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+    <div class="mobile_block">
+      <div class="menu">
+        <a href="#">Menu</a>
+      </div>
+      <div class="menu_burger">
+        <label for="menu_toggle" class="menu_btn">
+          <span></span>
+        </label>
+      </div>
+    </div>
+    <div class="menu_list">
+      <ul class="menu_box">
+        <li>
+          <a class="item" href="#who">Who</a>
+        </li>
+        <li>
+          <a class="item" href="#what">What</a>
+        </li>
+        <li>
+          <a class="item" href="#where">Where</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <article>
+    <div id="who" class="who">
+      <h3>Who Am I?</h3>
+      <div class="bird">
+        <figure>
+          <img src="img/bird.jpg" alt="bird">
+          <figcaption></figcaption>
+        </figure>
+      </div>
+      <h3>I'm an adventurer</h3>
+    </div>
+    <div id="what" class="what">
+      <h3>What Am I?</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, vero laudantium eveniet sed error officia recusandae maiores qui? Earum illum ea repellendus sunt sapiente suscipit blanditiis aspernatur facere qui consectetur?
+      </p>
+      <div class="search">
+        <a href="https://translate.google.com/">Search</a>
+        <div class="icon">
+          <img src="img/search.png" alt="">
         </div>
-        <div class="mobile_block">
-			<div class="menu">
-                <a href="#">Menu</a>
-			</div>
-			<div class="menu_burger">
-				<label for="menu_toggle" class="menu_btn">
-                    <span></span>
-                </label>
-            </div>
-        </div>
-        <div class="menu_list">
-            <ul class="menu_box">
-                <li>
-                    <a class="item" href="#who">Who</a>
-                </li>
-                <li>
-                    <a class="item" href="#what">What</a>
-                </li>
-                <li>
-                    <a class="item" href="#where">Where</a>
-                </li>
-            </ul>
-        </div>
-    </header>
-    <article>
-        <div id="who" class="who">
-			<h3>Who Am I?</h3>
-            <div class="bird">
-                <figure>
-                    <img src="img/bird.jpg" alt="bird">
-                    <figcaption></figcaption>
-                </figure>
-            </div>
-            <h3>I'm an adventurer</h3>
-        </div>
-        <div id="what" class="what">
-            <h3>What Am I?</h3>
-			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi repellat omnis neque laudantium velit
-                rem saepe doloribus perspiciatis cupiditate odit animi quos, quasi inventore qui mollitia <br> aperiam
-                est excepturi possimus!</p>
-            <div class="search">
-                <a href="https://translate.google.com/">Search</a>
-                <div class="icon">
-                    <img src="img/search.png" alt="">
-                </div>
-            </div>
-        </div>
-        <div id="where" class="where">
-            <h3>Where To Find Me?</h3>
-            <div class="wrap">
-                <div class="column1">
-                    <div class="text1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit sed quasi, libero,
-                            non nemo tenetur eveniet delectus nesciunt asperiores recusandae at repellat distinctio
-                            nostrum placeat beatae architecto? Optio, beatae.</p>
-                    </div>
-                    <div class="img"><img src="img/birds1.jpg" alt=""></div>
-                </div>
-                <div class="column1">
-                    <div class="text1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit sed quasi, libero,
-                            non nemo tenetur eveniet delectus nesciunt asperiores recusandae at repellat distinctio
-                            nostrum placeat beatae architecto? Optio, beatae.</p>
-                    </div>
-                    <div class="img"><img src="img/birds2.jpg" alt=""></div>
-                </div>
-                <div class="column1">
-                    <div class="text1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat impedit sed quasi, libero,
-                            non nemo tenetur eveniet delectus nesciunt asperiores recusandae at repellat distinctio
-                            nostrum placeat beatae architecto? Optio, beatae.</p>
-                    </div>
-                    <div class="img"><img src="img/birds3.jpg" alt=""></div>
-                </div>
-            </div>
-        </div>
-    </article>
-    <footer>
-        <div class="footer">
-            <p>Bootstrap Theme Made By
-                <a href="">https://www.w3schools.com/</a>
+      </div>
+    </div>
+    <div id="where" class="where">
+      <h3>Where To Find Me?</h3>
+      <div class="wrap">
+        <div class="column1">
+          <div class="text1">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cum itaque quis culpa quam ullam placeat non nihil explicabo iusto. Harum veniam corrupti dignissimos quas placeat facere totam perspiciatis accusantium?
             </p>
+          </div>
+          <div class="img"><img src="img/birds1.jpg" alt=""></div>
         </div>
-    </footer>
+        <div class="column1">
+          <div class="text1">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cum itaque quis culpa quam ullam placeat non nihil explicabo iusto. Harum veniam corrupti dignissimos quas placeat facere totam perspiciatis accusantium?
+            </p>
+          </div>
+          <div class="img"><img src="img/birds2.jpg" alt=""></div>
+        </div>
+        <div class="column1">
+          <div class="text1">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et cum itaque quis culpa quam ullam placeat non nihil explicabo iusto. Harum veniam corrupti dignissimos quas placeat facere totam perspiciatis accusantium?
+            </p>
+          </div>
+          <div class="img"><img src="img/birds3.jpg" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <footer>
+    <div class="footer">
+      <p>Bootstrap Theme Made By
+        <a href="">https://www.w3schools.com/</a>
+      </p>
+      <button onclick="btn()">run_ js</button>
+      <button onclick="discriminant()">calculation</button>
+      <button onclick="newFunction()">new_btn</button>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+
+  <script>
+      function btn() {
+        let name = Number(prompt('Введіть число', ''));
+           
+        if (isNaN(name)) {
+          alert('Ви ввели літери');
+          return btn();
+        }
+
+        if (name < 0) {
+          alert('Введіть додатнє число');
+          return btn()
+        }
+
+        for (let i = 0; i <= name && i <= 100; i++) {
+          console.log(i);
+
+          if (i === 100){
+            console.log('Значення більше за 100');
+          }
+        }
+     }
+  </script>
+  <script>
+    function getValue(name) {
+      let value = Number(prompt(`Введіть значення ${name}`, ''));
+      while (!validateValue(value)) {
+        value = getValue(name);
+      }
+
+      return value;
+    }
+
+    function validateValue(value) {
+      if (isNaN(value)) {
+        alert('Введіть число');
+
+        return false;
+      }
+
+      if (value === 0) {
+        alert('Введено не правильне значення');
+
+        return false;
+      }
+
+      return true;
+    }
+
+    function discriminant() {
+      let a = getValue('a');
+      let b = getValue('b');
+      let c = getValue('c');
+      let d = (b**2) - (4*a*c);
+      let x1 = (-b + (Math.sqrt(d)))/(2*a);
+      let x2 = (-b - (Math.sqrt(d)))/(2*a);
+
+      if (d < 0) {
+        alert('Рівняння немає розвязків');
+        return;
+      }
+
+      if (d == 0) {
+        let x12 = (-b + (Math.sqrt(d)))/(2*a);
+        alert(`Коріні рівняння одинакові, x1 та x2 = ${x12}`);
+        return;
+      }
+
+      alert(`Дискримінант: ${d}. X1: ${x1}. X2: ${x2}`);
+    }
+
+  </script>
+<!DOCTYPE html>
 
 </body>
-
 </html>
